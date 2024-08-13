@@ -1,23 +1,38 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     padding: 20px;
 }
 
 h1 {
-    color: green;
+    color: lightseagreen;
+    style: underline;
+}
+
+h2 {
+    color: rgb(25, 137, 131);
+    font-style: italic;
+    
+}
+
+h3 {
+    color: rgb(19, 90, 86);
+    border-style: dotted;
+    background-color: whitesmoke;
 }
 
 p {
-    color: blue;
+    color: rgb(4, 45, 43);
     line-height: 1.6;
+    border-style: inset;
+    background: whitesmoke;
     
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: lightseagreen;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -41,4 +56,51 @@ button:hover {
     60% {
         transform: translateY(-10px);
     }
+}
+
+.kawaii {
+    background-color: antiquewhite;
+    border-style: dashed;
+    border-color: darkcyan;
+    width:400px;
+}
+
+#Panda {
+    border-style:dotted;
+    border-color: rgb(9, 57, 57);
+    background-color: beige;
+    width: 600px;
+    height: 60%;
+}
+
+#Bubbletea {
+    border-style:groove;
+    border-color:rgb(4, 45, 43);
+    background-color:aliceblue;
+    width: 590px;
+    height: 59%;
+}
+
+#Dinosaur {
+    border-style:double;
+    border-color: darkolivegreen;
+    background-color: lightskyblue;
+    width:500px;
+    height: 50%;
+}
+
+#Cute-dog {
+    border-style: dashed;
+    border-color: rgb(13, 87, 87);
+    background-color:palevioletred;
+    width: 50%;
+    height: 55px;
+}
+
+#Animals {
+    border-style:dotted;
+    border-color:rgb(38, 161, 177);
+    background-color:gainsboro;
+    width:60%;
+    height:55px;
 }
