@@ -22,6 +22,10 @@ h3 {
     background-color: whitesmoke;
 }
 
+h4 {
+    color:rgb(18, 74, 71);
+}
+
 p {
     color: rgb(4, 45, 43);
     line-height: 1.6;
@@ -30,6 +34,26 @@ p {
     
 }
 
+a {
+    color:rgb(114, 1, 24);
+}
+
+a:hover {
+    color:yellow;
+    background-color: black;
+}
+
+a:active {
+    color:rgb(102, 4, 4);
+    background-color: white;
+    text-decoration-line: underline;
+    text-decoration-color:rgb(102, 4, 4);
+
+}
+
+a:visited {
+    color:blue;
+}
 button {
     padding: 10px 20px;
     background-color: lightseagreen;
@@ -59,48 +83,38 @@ button:hover {
 }
 
 .kawaii {
-    background-color: antiquewhite;
-    border-style: dashed;
-    border-color: darkcyan;
+    background-color:cornsilk;
+    border-style:dotted;
+    border-color:rgb(6, 61, 61);
     width:400px;
 }
 
 #Panda {
-    border-style:dotted;
-    border-color: rgb(9, 57, 57);
-    background-color: beige;
-    width: 600px;
-    height: 60%;
+    background-color: rgb(185, 200, 226);
+    border-style: dashed;
+    border-color:black;
 }
 
 #Bubbletea {
-    border-style:groove;
-    border-color:rgb(4, 45, 43);
-    background-color:aliceblue;
-    width: 590px;
-    height: 59%;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color:coral;
 }
 
 #Dinosaur {
+    background-color:darksalmon;
     border-style:double;
-    border-color: darkolivegreen;
-    background-color: lightskyblue;
-    width:500px;
-    height: 50%;
-}
-
-#Cute-dog {
-    border-style: dashed;
-    border-color: rgb(13, 87, 87);
-    background-color:palevioletred;
-    width: 50%;
-    height: 55px;
+    border-color:black;
 }
 
 #Animals {
-    border-style:dotted;
-    border-color:rgb(38, 161, 177);
-    background-color:gainsboro;
-    width:60%;
-    height:55px;
+    background-color: beige;
+    border-style: groove;
+    border-color:cadetblue;
+}
+
+#Cute-dog {
+    background-color: lightcyan;
+    border-style: dotted;
+    border-color:firebrick;
 }
